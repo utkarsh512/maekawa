@@ -9,7 +9,7 @@
 Maekawa's algorithm is an algorithm for mutual exclusion on a distributed system. The basis of this algorithm is a quorum like approach where any one site needs only to seek permissions from a subset of other sites.
 
 Quorum set (or request set) <img src="https://latex.codecogs.com/svg.latex?R_i" /> for each site <img src="https://latex.codecogs.com/svg.latex?S_i" /> must abide by the following rules:
-- <img src="https://latex.codecogs.com/svg.latex?\forall%20i%20\forall%20j,%20R_i%20\cap%20R_j%20=%20\O" />
+- <img src="https://latex.codecogs.com/svg.latex?\forall%20i%20\forall%20j,%20R_i%20\cap%20R_j%20\ne%20\O" />
 - <img src="https://latex.codecogs.com/svg.latex?\forall%20i,%20S_i%20\in%20R_i" />
 - <img src="https://latex.codecogs.com/svg.latex?\forall%20i,%20|%20R_i%20|%20=%20K" />
 - Site <img src="https://latex.codecogs.com/svg.latex?S_i" /> is contained in exactly <img src="https://latex.codecogs.com/svg.latex?K" /> request sets
