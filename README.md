@@ -22,10 +22,12 @@ If the number of site can be represented as <img src="https://latex.codecogs.com
 
 ## Build and run
 ```shell
+$ git clone https://github.com/utkarsh512/maekawa.git
 $ cd maekawa
 $ make
 $ ./maekawa
 ```
 
 ## References
+- [algorithm - What are the mathematical/computational principles behind this game? - Stack Overflow](https://stackoverflow.com/questions/6240113/what-are-the-mathematical-computational-principles-behind-this-game)
 - [Math Games: The Fano Plane](http://www.mathpuzzle.com/MAA/47-Fano/mathgames_05_30_06.html)
